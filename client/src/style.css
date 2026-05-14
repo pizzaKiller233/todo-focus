@@ -1,0 +1,49 @@
+:root {
+  --bg-deep: #06060f;
+  --bg-card: rgba(15, 15, 40, 0.65);
+  --bg-card-hover: rgba(20, 20, 50, 0.75);
+  --border-card: rgba(255, 255, 255, 0.06);
+  --text: #e0dce8;
+  --text-secondary: #7a7590;
+  --text-muted: #4a4560;
+  --accent: #d4a853;
+  --accent-light: #e8c97a;
+  --accent-dark: #b8942f;
+  --accent-glow: rgba(212, 168, 83, 0.2);
+  --success: #4ade80;
+  --success-glow: rgba(74, 222, 128, 0.25);
+  --danger: #f87171;
+  --danger-bg: rgba(248, 113, 113, 0.08);
+  --radius: 20px;
+  --radius-sm: 12px;
+  --radius-xs: 8px;
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font);
+  background: var(--bg-deep);
+  color: var(--text);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  position: relative;
+  z-index: 1;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+input {
+  font-family: inherit;
+  outline: none;
+}
